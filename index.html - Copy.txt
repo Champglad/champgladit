@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Champglad Technology - ICT Solutions</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; }
+        header { background: #2c3e50; color: white; padding: 20px; text-align: center; }
+        nav { background: #e74c3c; padding: 15px; text-align: center; }
+        nav a { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; }
+        .container { width: 90%; margin: 20px auto; }
+        .hero { background: #3498db; color: white; padding: 50px 20px; text-align: center; }
+        .btn { background: #e74c3c; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
+        footer { background: #2c3e50; color: white; text-align: center; padding: 20px; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CHAMPGLAD TECHNOLOGY LIMITED</h1>
+        <p>RC: 1530856 | Professional ICT Support in Lagos</p>
+    </header>
+    
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    <section class="hero">
+        <h2>Reliable Computer Repairs & IT Support</h2>
+        <p>Free initial diagnostic for new clients!</p>
+        <a href="#contact" class="btn">Get Free Consultation</a>
+    </section>
+    
+    <div class="container">
+        <section id="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li><strong>Hardware Repairs:</strong> Laptop/desktop motherboard-level fixes</li>
+                <li><strong>Network Setup:</strong> Office WiFi, printer configuration</li>
+                <li><strong>Software Installations:</strong> OS upgrades, antivirus, specialized apps</li>
+                <li><strong>Preventive Maintenance:</strong> Monthly/quarterly checkups</li>
+            </ul>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: <a href="mailto:champglad@gmail.com">champglad@gmail.com</a></p>
+            <p>Phone: <a href="tel:+2347066193090">07066193090</a></p>
+            <p>Address: 8 Ola Ayeni St, Computer Village, Ikeja, Lagos</p>
+            
+            <!-- Google Form Embed (Optional) -->
+            <iframe src="https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform?embedded=true" 
+                    width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0" style="margin-top: 20px;">
+                Loading contact form...
+            </iframe>
+        </section>
+    </div>
+    
+    <footer>
+        © 2023 Champglad Technology Limited | RC: 1530856
+    </footer>
+</body>
+</html>
